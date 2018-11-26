@@ -1,10 +1,8 @@
 header{
     background-color: #e24647;
-    position: relative;
-}
-
-h1, a{
     color: white;
+
+    position: relative;
 }
 
 h1{
@@ -12,14 +10,17 @@ h1{
     font-family: 'Arial MT', Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    font-size: 21px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
 nav{
+    font-size: 21px;
+
     position: absolute;
     top: 0;
     right: 0;
 }
+
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: inherit;
+}
+
