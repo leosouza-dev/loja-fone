@@ -2,25 +2,31 @@ header{
     background-color: #e24647;
     color: white;
 
-    position: relative;
+    overflow: hidden;
+/*position: relative;*/
+    
 }
 
 h1{
     font-size: 40px;
     font-family: 'Arial MT', Arial, Helvetica, sans-serif;
+
+    float: left;
 }
 
 nav{
     font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    position: absolute;
+    float: right;
+/*    position: absolute;
     top: 0;
     right: 0;
+*/
 }
 
 a{
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: inherit;
 }
 
