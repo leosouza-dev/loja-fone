@@ -1,12 +1,23 @@
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+
+div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 header{
     background-color: #e24647;
     color: white;
     margin: 0 115px;
     padding: 55px 60px 95px;
 
-    overflow: hidden;
-/*position: relative;*/
+    width: 100%;
     
+    overflow: hidden;
 }
 
 h1{
@@ -21,10 +32,6 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     float: right;
-/*    position: absolute;
-    top: 0;
-    right: 0;
-*/
 }
 
 a{
@@ -41,6 +48,4 @@ button{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
-    margin-left: 1000px;
-    margin-top: 645px;
 }
