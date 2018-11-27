@@ -33,3 +33,14 @@ a{
     margin-left: 60px;
 }
 
+button{
+    width: 199px;
+    height: 60px;
+    background-color: #252c41;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 1000px;
+    margin-top: 645px;
+}
