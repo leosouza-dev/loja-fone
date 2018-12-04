@@ -1,0 +1,32 @@
+.description-store{
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+}
+
+.dTitle{
+    font-size: 25px;
+    margin-top: 138.5px;
+    margin-bottom: 99px; 
+}
+
+.dDetail{
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.dDetail:nth-child(5){
+    font-size: 18px;
+    margin-top: 73px;
+    line-height: 30px;
+}
+
+.dDetail:nth-child(6){
+    margin-top: 40px;
+    margin-bottom: 98px;
+}
+
+.dAction{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+}
