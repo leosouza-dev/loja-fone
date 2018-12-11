@@ -13,6 +13,17 @@
     float: left;
 }
 
+.header-store .search{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 314px;
+    padding-bottom: 8px;
+    width: 295px;
+    border-bottom: 1px solid #FFF;
+}
+
 .header-store > .navigation{
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
