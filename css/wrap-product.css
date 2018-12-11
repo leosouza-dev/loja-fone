@@ -1,5 +1,8 @@
 .wrap-product{
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     width: 554px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+    margin-bottom: 98px;
+    margin-top: 40px;
 }

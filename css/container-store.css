@@ -6,5 +6,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+
+    max-width: 1369px;
+    max-height: 965px;
+
+   
 }
