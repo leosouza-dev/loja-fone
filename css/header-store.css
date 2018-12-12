@@ -13,15 +13,16 @@
     float: left;
 }
 
-.header-store .search{
-    font-size: 20px;
-    line-height: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    margin-left: 314px;
-    padding-bottom: 8px;
-    width: 295px;
+.header-store [type="search"]{
+    background-color: transparent;
+    border: none;
     border-bottom: 1px solid #FFF;
+    color: inherit;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 358px;
 }
 
 .header-store > .navigation{
