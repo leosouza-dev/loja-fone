@@ -3,6 +3,12 @@
     font-family: "Roboto", sans-serif; 
 }
 
+.description-product > .heart{
+    position: absolute;
+    transform: translateX(calc(-100% - 48px));
+    margin-top: 9px;
+}
+
 .description-product > .title{
     font-size: 25px;
     margin-bottom: 50px;
