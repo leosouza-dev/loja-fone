@@ -9,6 +9,7 @@
     font-size: 40px;
     font-family: 'Arial MT', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
 
     float: left;
 }
