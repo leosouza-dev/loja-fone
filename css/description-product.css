@@ -1,13 +1,20 @@
 .description-product{
     color:#fff;
     font-family: "Roboto", sans-serif; 
+    position: relative;
 }
 
-.description-product > .heart{
+/* .description-product > .heart{
     position: absolute;
     transform: translateX(calc(-100% - 48px));
     margin-top: 9px;
+
+    transition: all 200ms linear;
 }
+
+.description-product > .heart:hover{
+    transform: scale(1.2);
+} */
 
 .description-product > .title{
     font-size: 25px;
@@ -17,11 +24,32 @@
 .description-product .star{
     margin-right: 9px;
     cursor: pointer;
+    transition: all 200ms linear;
+
+}
+
+.description-product .star:hover{
+    transform: scale(1.2);
 }
 
 .description-product > .item{
     font-size: 20px;
     margin-bottom: 28px;
+}
+
+.description-product > .item.-heart{
+    cursor: pointer;
+
+    transition: all 200ms linear;
+
+    position: absolute;
+    transform: translateX(-100%);
+    left: -48px;
+    top: 8px;
+}
+
+.description-product > .item.-heart:hover{
+    transform: scale(1.1);
 }
 
 .description-product > .item.-info{

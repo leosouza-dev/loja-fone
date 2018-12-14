@@ -13,11 +13,17 @@
     box-sizing: border-box;
     margin-right: 0;
     border: none;
+
+    transition: all 200ms linear;
 }
 
 .button-store:hover{
-    color: #252c41;
+    color: #e24647;
     background-color: #fff;
+}
+
+.button-store:active{
+    transform: scale(.9)
 }
 
 .button-store.-second{

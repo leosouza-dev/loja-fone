@@ -37,5 +37,11 @@
     text-decoration: none;
     color: inherit;
     margin-left: 60px;
+
+    transition: all 200ms linear;
+}
+
+.header-store .action:hover{
+    border-bottom: 1px solid #FFF;
 }
 
