@@ -48,13 +48,14 @@
     top: 8px;
 }
 
-.description-product > .item.-heart:hover{
-    transform: scale(1.1);
+.description-product .heart:hover{
+    transform: scale(1.5);
 }
 
 .description-product > .item.-info{
     width: 200px;
     text-align: right;
+    
 }
 
 .description-product > .item.-last{
