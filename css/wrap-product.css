@@ -1,8 +1,15 @@
 .wrap-product{
     /* display: inline-block; */
-    float: left;
+    position: relative;
+    display: inline-block;
     width: 554px;
-    /* vertical-align: middle; */
-    margin-bottom: 98px;
-    margin-top: 40px;
+    vertical-align: middle;
+    /* margin-bottom: 98px;
+    margin-top: 40px; */
+}
+
+.wrap-product > .buttons{
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(calc(100% + 98px));
 }
