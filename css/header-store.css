@@ -60,3 +60,45 @@
     background: #fff;
 }
 
+@media (max-width: 1235px){
+    .header-store > .title{
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-store > .navigation{
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px){
+    .header-store [type= "search"]{
+        display: none;      
+    }
+
+    .header-store{
+        padding-left: 16px;
+    }
+
+}
+
+@media (max-width: 800px){
+    .header-store .action{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 502px){
+    .header-store .action{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 375px){
+    .header-store > .navigation{
+        display: none;
+    }
+}
+
