@@ -60,6 +60,13 @@
     background: #fff;
 }
 
+
+@media (max-width: 1300px){
+    .header-store{
+        padding-right: 60px;
+    }
+}
+
 @media (max-width: 1235px){
     .header-store > .title{
         float: none;
@@ -80,8 +87,12 @@
 
     .header-store{
         padding-left: 16px;
+        padding-right: 16px;
     }
 
+    .header-store .action.-first{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 800px){
@@ -101,4 +112,6 @@
         display: none;
     }
 }
+
+
 

@@ -13,3 +13,18 @@
 
     padding-top: 27px;
 }
+
+@media (max-width: 1325px) {
+    .photo-product{
+        margin-right: 130px;
+    }
+}
+
+@media (max-width: 1300px){
+    .photo-product{
+        display: block;
+        margin-right: 0px;
+        border-radius: 0; 
+        text-align: center;
+    }
+}
