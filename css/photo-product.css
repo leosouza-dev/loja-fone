@@ -28,3 +28,13 @@
         text-align: center;
     }
 }
+
+@media (max-width: 560px) {
+    .photo{
+        width: 100%;
+    }
+
+    .photo-product{
+        height: auto;
+    }
+}

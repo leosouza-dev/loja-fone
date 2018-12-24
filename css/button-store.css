@@ -48,3 +48,13 @@
     background-color: inherit;
     font-size: inherit;
 }
+
+@media (max-width: 500px){
+    .button-store, .button-store.-second{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}

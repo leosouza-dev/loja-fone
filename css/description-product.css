@@ -81,3 +81,35 @@
     color: inherit;
     text-decoration: none;
 }
+
+@media (max-width: 1300px){
+    .description-product > .title{
+        margin-top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .description-product{
+        width: 50%;
+        min-width: 655px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
+    .description-product .star{
+        float: left;
+    }
+
+    .description-product > .item.-number{
+        margin-left: 50px;
+        padding-top: 1px;
+    }
+}
+
+@media (max-width: 720px) {
+    .description-product{
+        width: 90%;
+        min-width: auto;
+    }
+}
