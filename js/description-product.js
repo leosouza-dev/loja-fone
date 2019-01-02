@@ -16,7 +16,12 @@ function handleClick(){
     console.log("ae");
 }
 
+
 //evento do botão add ao carinho
 const $carrinho = window.document.querySelector(".-second");
+$carrinho.addEventListener("click", changingText);
 
-$carrinho.addEventListener("click", handleClick);
+//criando função para alterar o texto
+function changingText(){
+    window.document.querySelector(".-car").textContent="Carrinho (11)";
+}
