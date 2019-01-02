@@ -7,7 +7,7 @@
 */
 
 
-
+// evento do coração
 const $heart = window.document.querySelector(".-heart");
 
 $heart.addEventListener("click", handleClick);
@@ -15,3 +15,8 @@ $heart.addEventListener("click", handleClick);
 function handleClick(){
     console.log("ae");
 }
+
+//evento do botão add ao carinho
+const $carrinho = window.document.querySelector(".-second");
+
+$carrinho.addEventListener("click", handleClick);
