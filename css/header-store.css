@@ -26,6 +26,10 @@
     width: 358px;
 }
 
+.header-store [type="search"]::placeholder{
+    color: inherit;
+}
+
 .header-store > .navigation{
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
