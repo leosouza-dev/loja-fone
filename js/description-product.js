@@ -13,15 +13,18 @@ const $heart = window.document.querySelector(".-heart");
 $heart.addEventListener("click", handleClick);
 
 function handleClick(){
-    console.log("ae");
+    //resolvendo com if
+
+    // if ($heart.classList.contains("-active")){
+    //     $heart.classList.remove("-active");
+    // }
+    // else{
+    //     $heart.classList.add("-active");
+    // }
+
+    //resolvendo com toggle - muito mais feliz iuhuuuu
+    $heart.classList.toggle("-active")
 }
 
+//evento da estrela
 
-//evento do botão add ao carinho
-const $carrinho = window.document.querySelector(".-second");
-$carrinho.addEventListener("click", changingText);
-
-//criando função para alterar o texto
-function changingText(){
-    window.document.querySelector(".-car").textContent="Carrinho (11)";
-}

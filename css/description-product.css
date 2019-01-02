@@ -48,9 +48,30 @@
     top: 8px;
 }
 
+.description-product > .item.-active{
+    /* background-color: #fff; */
+}
+
+
 .description-product .heart:hover{
     transform: scale(1.5);
 }
+
+/*animação do coração*/
+
+.description-product .heart.-active{
+    display: none;
+}
+
+.description-product > .item.-active .heart{
+    display: none;
+}
+
+.description-product > .item.-active .heart.-active{
+    display: block;
+}
+
+/*fim animação do coração*/
 
 .description-product > .item.-info{
     width: 200px;
